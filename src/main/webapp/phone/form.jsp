@@ -38,25 +38,25 @@
 
             <div class="w3-margin">
                 <label>Name</label>
-                <input class="w3-input" type="text" name="name">
+                <input class="w3-input" type="text" required name="name">
             </div>
             <div class="w3-margin">
-                <form action="">
-                    <label >Danh muc:</label>
-                    <select  name="brand">
+
+                    <label >Brand:</label>
+                    <select class="w3-input"   name="brand">
                         <option >Apple</option>
                         <option >Samsung</option>
                         <option >Nokia</option>
                     </select>
-                </form>
+
             </div>
             <div class="w3-margin">
                 <label>Description</label>
-                <input class="w3-input" type="text" name="description">
+                <input class="w3-input" type="text" required name="description">
             </div>
             <div class="w3-margin">
                 <label>Price</label>
-                <input class="w3-input" type="number" name="price">
+                <input class="w3-input" type="number" required name="price">
             </div>
 
             <button class="w3-btn w3-blue w3-margin">Submit</button>

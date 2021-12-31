@@ -29,10 +29,10 @@ public class CreatePhoneController extends HttpServlet {
             String description = req.getParameter("description");
             Phone p = new Phone(name, brand, description, price);
             if (phoneModel.save(p)){
-                resp.getWriter().println("Thanh Cong");
-                //resp.sendRedirect("/admin/game/list");
+                resp.sendRedirect("/phone/list");
+
             }
-            resp.getWriter().println("Thanh Cong");
+            resp.sendRedirect("/phone/list");
         }catch (Exception ex) {
             resp.getWriter().println("Error");
         }

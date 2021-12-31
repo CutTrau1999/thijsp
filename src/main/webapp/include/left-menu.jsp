@@ -17,8 +17,8 @@
     <div class="w3-bar-block">
         <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
            onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
-        <a href="/product/list" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-list fa-fw" aria-hidden="true">&nbsp;</i> List Product</a>
-        <a href="/product/create" class="w3-bar-item w3-button w3-padding"><i class="fa fa-plus "></i></i> &nbsp;Create Product </a>
+        <a href="/phone/list" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-list fa-fw" aria-hidden="true">&nbsp;</i> List Product</a>
+        <a href="/phone/create" class="w3-bar-item w3-button w3-padding"><i class="fa fa-plus "></i></i> &nbsp;Create Product </a>
 
         <br><br>
     </div>

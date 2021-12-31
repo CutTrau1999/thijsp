@@ -1,4 +1,4 @@
-package com.example.asm.controller;
+package com.example.thijsp.controller;
 
 
 import com.example.thijsp.Model.PhoneModel;
@@ -23,9 +23,9 @@ public class ListPhoneController extends HttpServlet {
 
 
         req.setCharacterEncoding("UTF-8");
-        ArrayList<Phone> listProduct = phoneModel.findAll();
+        ArrayList<Phone> listPhone = phoneModel.findAll();
 
-        req.setAttribute("list", listProduct);
+        req.setAttribute("list", listPhone);
         req.getRequestDispatcher("/phone/list.jsp").forward(req, resp);
     }
 }
